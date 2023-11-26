@@ -1,5 +1,6 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 html{
-
+  font-family: "SF Pro Display", sans-serif;
 
     --body-color:#FFFCFF ;
   
@@ -30,6 +31,7 @@ html{
     background-color: var(--body-color);
   }
   button {
+    font-family: "SF Pro Display", sans-serif;
     width: 75px;
     cursor: pointer;
     box-shadow: 0px 0px 2px gray;
@@ -40,29 +42,48 @@ html{
     color: white;
   }
   
+#monthDisplay{
+  text-transform: uppercase;
+  color: #2E5B9A;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  line-height: 35.8px;
+  font-weight: bold;
+}
+
   #header {
     padding: 10px;
-    color: var(--header-color) ;
+    color:#247BA0 ;
     font-size: 26px;
-    font-family: sans-serif;
+    font-family: "SF Pro Display", sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
   #header button {
+    font-family: "SF Pro Display", sans-serif;
     background-color:var(--header-button);
+  }
+  #size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   #container {
     max-width: 600px; 
     margin: auto; 
   }
   #weekdays {
+    font-family: "SF Pro Display", sans-serif;
     width: 100%;
     display: flex;
     color: var(--color-weekdays) ;
   }
   #weekdays div {
+    font-family: "SF Pro Display", sans-serif;
     width: 100px;
     padding: 10px;
+    color: #5d94e0;
   }
   #calendar {
     width: 100%;
@@ -70,7 +91,13 @@ html{
     display: flex;
     flex-wrap: wrap;
   }
+  #containerHeaderCalendario{
+    font-family: "SF Pro Display", sans-serif;
+    color: #7EB4FF;
+    font-size: 20px;
+  }
   .day {
+    font-family: "SF Pro Display", sans-serif;
     width: 80px;
     padding: 10px;
     height: 80px;
@@ -82,7 +109,6 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 15%;
   }
   .day:hover {
     background-color: var(--hover);
@@ -116,7 +142,7 @@ html{
     top: 100px;
     left: calc(50% - 175px);
     position: absolute;
-    font-family: sans-serif;
+    font-family: "SF Pro Display", sans-serif;
   }
   #eventTitleInput {
     padding: 10px;
@@ -129,7 +155,8 @@ html{
     box-shadow: 0px 0px 3px gray;
   }
   #eventTitleInput.error {
-    border: 2px solid red;
+    border: 2px solid #247BA0;
+    font-family: "SF Pro Display", sans-serif;
   }
   #cancelButton, #deleteButton {
     background-color: var(--header-color);
@@ -217,6 +244,7 @@ img {
 
 h4{
   color: #484848;
+  font-family: "SF Pro Display", sans-serif;
 }
 .conteinerAsideImg{
   width: 26px;
